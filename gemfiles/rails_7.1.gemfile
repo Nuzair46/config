@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "activerecord-jdbcsqlite3-adapter", "~> 70.1", platform: :jruby
+gem "activerecord-jdbcsqlite3-adapter", "~> 71.0", platform: :jruby
 gem "sqlite3", "~> 1.6.6", platform: :ruby
 gem "bootsnap", ">= 1.16.0"
 gem "rails", "7.1.5.1"
