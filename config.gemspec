@@ -35,6 +35,7 @@ Gem::Specification.new do |s|
   # Testing
   s.add_development_dependency 'appraisal', '~> 2.5', '>= 2.5.0'
   s.add_development_dependency 'dry-validation', *Config::DryValidationRequirements::VERSIONS
+  s.add_development_dependency 'dry-container', '~> 0.11.0'
   s.add_development_dependency 'rspec', '~> 3.9', '>= 3.9.0'
 
   # Default RSpec run will test against latest Rails app
