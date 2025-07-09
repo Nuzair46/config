@@ -1,5 +1,7 @@
 require 'spec_helper'
-require 'dry/validation'
+require 'config/dry_validation_requirements'
+
+Config::DryValidationRequirements.load_dry_validation!
 
 describe Config do
   context 'validation' do
