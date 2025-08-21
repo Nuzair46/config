@@ -186,7 +186,7 @@ describe Config do
         File.write(default_settings_file_name, "default: default_value")
         File.write(custom_settings_file_name, "custom: custom_value")
         # workaround for Rails 6.1
-        File.write(spring_file_name_for_rails_6_1, "") if Rails.version == "6.1.7.6"
+        File.write(spring_file_name_for_rails_6_1, "") if Rails.version.start_with?("6.1")
       end
 
       after do
